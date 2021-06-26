@@ -71,7 +71,7 @@
 
  
 
-    <hr align=”left” size=”1″ width=”300″ color=”white” noshade style="margin-top: 100px;">
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
 
  
 
@@ -97,7 +97,7 @@
  
  
 
-    <hr align=”left” size=”1″ width=”300″ color=”white” noshade style="margin-top: 100px;">
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
   
   
   
@@ -121,7 +121,7 @@
 
  
 
-    <hr align=”left” size=”1″ width=”300″ color=”white” noshade style="margin-top: 100px;">
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
   
    <form action="&lt;%= request.getContextPath() %&gt;/register" method="post">
         <p style="margin-top:65px;margin-left:410px;"><button name="Chart" style="height: 35px; width: 95px; margin-top: -48px; margin-left: 160px;background-color: #4D4D4D;">Vedi altri</button></p>

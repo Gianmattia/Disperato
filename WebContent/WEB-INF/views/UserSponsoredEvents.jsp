@@ -108,7 +108,7 @@ try{
      <label  style=" margin-top: px;margin-left: 50px;"><%= lssb.get(0).getLocation() %></label>
 
 
-    <hr align=â€leftâ€ size=â€1â€³ width=â€300â€³ color=black noshade>
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
 
 
 
@@ -140,7 +140,7 @@ Artista molto affermato nella puglia Borbonica gestiva uno spaccio di minori e p
          <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"></label>
 
 
-    <hr align=â€leftâ€ size=â€1â€³ width=â€300â€³ color=black noshade>
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
   
   
   <% } %>
@@ -170,7 +170,7 @@ Artista molto affermato nella puglia Borbonica gestiva uno spaccio di minori e p
          <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"></label>
 
 
-    <hr align=â€leftâ€ size=â€1â€³ width=â€300â€³ color=black noshade>
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
   <% } %>
    <form action="&lt;%= request.getContextPath() %&gt;/register" method="post">
         <p style="margin-top:65px;margin-left:410px;"><button name="Chart" style="height: 35px; width: 95px; margin-top: -48px; margin-left: 160px;background-color: #4D4D4D;">Vedi altri</button></p>
@@ -179,8 +179,7 @@ Artista molto affermato nella puglia Borbonica gestiva uno spaccio di minori e p
   
 
 
-    ​​​​​​​
-     
+
  
   
   </body>

@@ -99,7 +99,7 @@
      <label  style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(0).getArtist()).getTalent() %></label>
          <label  style=" margin-top: px;margin-left: 50px;"></label>
 
-    <hr align=left�� size=”1″ width=”300″ color=”white” noshade>
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
 <% }%>
 
 
@@ -134,7 +134,7 @@
      <label  style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(1).getArtist()).getTalent() %></label>
          <label  style=" margin-top: px;margin-left: 50px;"></label>
 
-    <hr align=”left” size=”1″ width=”300″ color=”white” noshade>
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
     <% }%>
  
   <!-- terzo artista  -->
@@ -167,7 +167,7 @@
      <label  style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(2).getArtist()).getTalent() %></label>
          <label  style=" margin-top: px;margin-left: 50px;"></label>
 
-    <hr align=”left” size=”1″ width=”300″ color=”white” noshade>
+    <hr style="align:left;size:1 ;width:1200px ;color:black; noshade;"></hr>
  
    <form action="&lt;%= request.getContextPath() %&gt;/register" method="post">
         <p style="margin-top:65px;margin-left:410px;"><button name="Chart" style="height: 35px; width: 95px; margin-top: -48px; margin-left: 160px;background-color: #4D4D4D;">Vedi altri</button></p>
