@@ -58,7 +58,7 @@
    
        <p style="margin-top: 300px; margin-left: 5px;"> <img src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+        style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     </p>
     <h1 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista">Le tue recensioni</label></h1>
     

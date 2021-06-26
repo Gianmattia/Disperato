@@ -63,7 +63,7 @@
 
  
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+         style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     </p>
     <h2 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista"><%= activity %></label></h2>
     <h3 style=" margin-top: px;margin-left: 300px;"> </h3>
@@ -71,11 +71,11 @@
         <form action="Homepage" method="get">  <button name="Dona" style="height: 45px; width: 105px; margin-top: -50px; margin-left: 1030px; background-color: #4d4d4d;">Dismiss show</button> </form>
     
     <% }%>
- <label form="Strada artista" style=" margin-top: px;margin-left: 300px;"></label>
-     <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"></label>
-         <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"></label>
+ <label  style=" margin-top: px;margin-left: 300px;"></label>
+     <label  style=" margin-top: px;margin-left: 50px;"></label>
+         <label  style=" margin-top: px;margin-left: 50px;"></label>
           <h3 style=" margin-top: -20px;margin-left: 300px;"> <textarea id="story" name="story" style=" resize: none ;"rows="5" cols="80" readonly disabled="disabled"><%= description %></textarea></h3>
-<label form="Tipo di artista" style=" margin-top: px;margin-left: 300px;">capacita':   <%= capacity %></label>
+<label style=" margin-top: px;margin-left: 300px;">capacita':   <%= capacity %></label>
  
 
     

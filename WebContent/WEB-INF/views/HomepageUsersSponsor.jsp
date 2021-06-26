@@ -86,7 +86,7 @@
 
  
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+         style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     </p>
      <form action="ContattaArtista" method="post"  style=" margin-top: -50px;">
     <h2 style=" margin-top: -180px;margin-left: 300px;"> <label ><%= artists.get(1) %></input></h2>

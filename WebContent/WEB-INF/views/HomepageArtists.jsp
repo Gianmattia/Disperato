@@ -65,7 +65,7 @@
 
  
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+        style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     </p>
     <h2 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista"></label></h2>
     <li>

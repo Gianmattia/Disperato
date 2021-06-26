@@ -61,9 +61,8 @@
    
        <p style="margin-top: 260px; margin-left: 5px;"> <img src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+        style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     </p>
-    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label name="artistname" id="artistname" form="test"><%= strParam %></label></h2>
   <li> <h3 style=" margin-top: px;margin-left: 300px;"><ul>
     <% 
     //intuizione assoluta

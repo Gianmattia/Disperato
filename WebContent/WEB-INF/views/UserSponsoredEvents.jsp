@@ -101,11 +101,11 @@ try{
 
         h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     </p>
-    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista"><%= lssb.get(0).getTitle() %></label></h2>
+    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label><%= lssb.get(0).getTitle() %></label></h2>
     <h3 style=" margin-top: px;margin-left: 300px;"> <textarea id="story" name="story" style=" resize: none ;"rows="5" cols="80" readonly disabled="disabled"><%= lssb.get(0).getDescription() %></textarea></h3>
 
- <label form="Strada artista" style=" margin-top: px;margin-left: 300px;"><%= lssb.get(0).getArtist() %></label>
-     <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"><%= lssb.get(0).getLocation() %></label>
+ <label style=" margin-top: px;margin-left: 300px;"><%= lssb.get(0).getArtist() %></label>
+     <label  style=" margin-top: px;margin-left: 50px;"><%= lssb.get(0).getLocation() %></label>
 
 
     <hr align=â€leftâ€ size=â€1â€³ width=â€300â€³ color=black noshade>

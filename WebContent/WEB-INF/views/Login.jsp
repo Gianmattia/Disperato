@@ -1,9 +1,30 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>Prova</title>
+    <style  type="text/css">
+p{
+
+ color:red;
+
+}
+h1{
+
+background-colo:yellow
+
+}
+
+
+
+
+
+
+
+
+</style>
   </head>
   <!--  <body style="background-color: white; background-image: url(&quot;https://www.cilentonotizie.it/public/images/11122020_foto-PalaSele_phangelotortorella_03.jpg&quot;);"><img
 
@@ -46,7 +67,6 @@
         <option value='2'>Performer</option>
      <option value='3'>Sponsor</option>
 
- 
 
         
  
@@ -71,5 +91,6 @@
         senza login</button></form>
     
     
+ 
   </body>
 </html>

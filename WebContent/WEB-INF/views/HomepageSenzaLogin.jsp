@@ -72,7 +72,7 @@
     %> 
     <p style="margin-top: 300px; margin-left: 5px;"> <img src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+      style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     
     </p>
  
@@ -152,9 +152,9 @@
        <input type="text" id="payInput2"  style="height: 35px; width: 90px; margin-top: -90px; margin-left: 1030px; "  /><button id="Dona2" onClick="generatePayment2(document.getElementById('payInput2').value)">Dona</button></input> 
         <button  style="display:none;margin-top: -20x; margin-left: 1128px;" id="cancella" onClick="cancella()">Cancella</button> 
   
- <label form="Strada artista" style=" margin-top: px;margin-left: 300px;">-<%=huc.getPlace(events.get(2).getPlace()).getAddress()  %></label>
-     <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(2).getArtist()).getTalent() %></label>
-         <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"></label>
+ <label  style=" margin-top: px;margin-left: 300px;">-<%=huc.getPlace(events.get(2).getPlace()).getAddress()  %></label>
+     <label  style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(2).getArtist()).getTalent() %></label>
+         <label style=" margin-top: px;margin-left: 50px;"></label>
 
     <hr align=”left” size=”1″ width=”300″ color=”white” noshade>
  

@@ -71,7 +71,7 @@
 
 <% if(state.equals("no requests found")){ %>
  <h1 style="margin-top: 110px;">Le tue Proposte:</h1>
-	<p style="margin-top: 110px; margin-left: 600px;"  ><h1>Al momento non ci sono proposte</h1></p>
+	<p style="margin-top: 110px; margin-left: 600px;"><h1>Al momento non ci sono proposte</h1></p>
 <% }%>
 
 <!--              qui mettere if   -->
@@ -81,7 +81,7 @@
 
  
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+        style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     </p>
     
    <p     style="margin-top: -190px; margin-left: 600px;"  >
@@ -97,14 +97,10 @@
         
         
         <ul>
-          <textarea   readonly="readonly" value="" id="Cognome" name="Cognome"
-
- 
-
-            style="resize:none;height: 80px; width: 300px;" type="text"><%= show.getDescription() %></textarea>
+          <textarea   readonly="readonly"  id="Cognome" name="Cognome" style="resize:none;height: 80px; width: 300px;" type="text"><%= show.getDescription() %></textarea>
         </ul>
         <ul>
-          <textarea  readonly="readonly"  value="" id="password" name="password"
+          <textarea  readonly="readonly"   id="password" name="password"
 
  
 
@@ -115,8 +111,8 @@
            
       </h3>
     </li>
-    <input readonly="readonly" id="Submit" name="button" type="submit" value="Accetta"  style="resize:none;height: 35px; width: 95px; margin-top: -600px; margin-left: 1050px;background-color:purple ;"> </input>
-      <input readonly="readonly" id="Submit" name="button" type="submit" value="Rifiuta"  style="resize:none;height: 35px; width: 95px; margin-top: -600px; margin-left: 950px;background-color:purple ;"> </input>
+    <input readonly="readonly" id="Submit" name="button" type="submit" value="Accetta"  style="resize:none;height: 35px; width: 95px; margin-top: -600px; margin-left: 1050px;background-color:purple ;"> 
+      <input readonly="readonly" id="Submit" name="button" type="submit" value="Rifiuta"  style="resize:none;height: 35px; width: 95px; margin-top: -600px; margin-left: 950px;background-color:purple ;"> 
   
    </p>
 

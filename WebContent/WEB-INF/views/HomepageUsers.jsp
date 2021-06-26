@@ -36,7 +36,7 @@
     <h1 style="margin-top:84px;margin-left:3px;">
      
       <form action="TastoChart" method="post">
-        <p style="margin-top:-74px;margin-left:170px;"><input id="Submit" name="Chart" type="submit" value="Chart" " style="height: 35px ; width: 95px; margin-top: -48px; margin-left: 570px;background-color: #4D4D4D;"></input>
+        <p  style="margin-top:-74px;margin-left:170px;"><input id="Submit" name="Chart" type="submit" value="Chart" " style="height: 35px ; width: 95px; margin-top: -48px; margin-left: 570px;background-color: #4D4D4D;"></input>
         </p>
       </form>
       <form action="TastoMap" method="post">
@@ -83,23 +83,23 @@
     %> 
     <p style="margin-top: 300px; margin-left: 5px;"> <img src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+        style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     
     </p>
  
-    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista">    <%=events.get(0).getArtist() %>
+    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label>    <%=events.get(0).getArtist() %>
     </label></h2>
     <h3 style=" margin-top: px;margin-left: 300px;"> <textarea id="story" name="story" style=" resize: none ;"rows="5" cols="80" readonly disabled="disabled">
 <%=events.get(0).getDescription() %>
 </textarea></h3>
 
-      <input type="text" id="payInput0"  style="height: 35px; width: 90px; margin-top: -90px; margin-left: 1030px; "  /><button id="Dona0" onClick="generatePayment0(document.getElementById('payInput0').value)">Dona</button></input>
+      <input type="text" id="payInput0"  style="height: 35px; width: 90px; margin-top: -90px; margin-left: 1030px; "  /><button id="Dona0" onClick="generatePayment0(document.getElementById('payInput0').value)">Dona</button>
       <button  style="display:none;margin-top: -20x; margin-left: 1128px;" id="cancella" onClick="cancella()">Cancella</button> 
- <label form="Strada artista" style=" margin-top: px;margin-left: 300px;">-<%=huc.getPlace(events.get(0).getPlace()).getAddress()  %></label>
-     <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(0).getArtist()).getTalent() %></label>
-         <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"></label>
+ <label style=" margin-top: px;margin-left: 300px;">-<%=huc.getPlace(events.get(0).getPlace()).getAddress()  %></label>
+     <label  style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(0).getArtist()).getTalent() %></label>
+         <label  style=" margin-top: px;margin-left: 50px;"></label>
 
-    <hr align=”left” size=”1″ width=”300″ color=”white” noshade>
+    <hr align=left�� size=”1″ width=”300″ color=”white” noshade>
 <% }%>
 
 
@@ -118,21 +118,21 @@
 
    <p style="margin-top: 280px; margin-left: 5px;"> <img src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+        style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     
     </p>
  
-    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista">    <%=events.get(1).getArtist() %>
+    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label>    <%=events.get(1).getArtist() %>
     </label></h2>
     <h3 style=" margin-top: px;margin-left: 300px;"> <textarea id="story" name="story" style=" resize: none ;"rows="5" cols="80" readonly disabled="disabled">
 <%=events.get(1).getDescription() %>
 </textarea></h3>
-      <input type="text" id="payInput1"  style="height: 35px; width: 90px; margin-top: -90px; margin-left: 1030px; "  /><button id="Dona1" onClick="generatePayment1(document.getElementById('payInput1').value)">Dona</button></input> 
+      <input type="text" id="payInput1"  style="height: 35px; width: 90px; margin-top: -90px; margin-left: 1030px; "  /><button id="Dona1" onClick="generatePayment1(document.getElementById('payInput1').value)">Dona</button>
         <button  style="display:none;margin-top: -20x; margin-left: 1128px;" id="cancella1" onClick="cancella()">Cancella</button> 
   
- <label form="Strada artista" style=" margin-top: px;margin-left: 300px;">-<%=huc.getPlace(events.get(1).getPlace()).getAddress()  %></label>
-     <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(1).getArtist()).getTalent() %></label>
-         <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"></label>
+ <label  style=" margin-top: px;margin-left: 300px;">-<%=huc.getPlace(events.get(1).getPlace()).getAddress()  %></label>
+     <label  style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(1).getArtist()).getTalent() %></label>
+         <label  style=" margin-top: px;margin-left: 50px;"></label>
 
     <hr align=”left” size=”1″ width=”300″ color=”white” noshade>
     <% }%>
@@ -152,20 +152,20 @@
     
    <p style="margin-top: -200px; margin-left: 5px;"> <img src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
 
-        h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
+        style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     
     </p>
-    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista">    <%=events.get(2).getArtist() %>
+    <h2 style=" margin-top: -180px;margin-left: 300px;"> <label >    <%=events.get(2).getArtist() %>
     </label></h2>
     <h3 style=" margin-top: px;margin-left: 300px;"> <textarea id="story" name="story" style=" resize: none ;"rows="5" cols="80" readonly disabled="disabled">
 <%=events.get(2).getDescription() %>
 </textarea></h3>
-       <input type="text" id="payInput2"  style="height: 35px; width: 90px; margin-top: -90px; margin-left: 1030px; "  /><button id="Dona2" onClick="generatePayment2(document.getElementById('payInput2').value)">Dona</button></input> 
+       <input type="text" id="payInput2"  style="height: 35px; width: 90px; margin-top: -90px; margin-left: 1030px; "  /><button id="Dona2" onClick="generatePayment2(document.getElementById('payInput2').value)">Dona</button> 
         <button  style="display:none;margin-top: -20x; margin-left: 1128px;" id="cancella" onClick="cancella()">Cancella</button> 
   
- <label form="Strada artista" style=" margin-top: px;margin-left: 300px;">-<%=huc.getPlace(events.get(2).getPlace()).getAddress()  %></label>
-     <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(2).getArtist()).getTalent() %></label>
-         <label form="Tipo di artista" style=" margin-top: px;margin-left: 50px;"></label>
+ <label  style=" margin-top: px;margin-left: 300px;">-<%=huc.getPlace(events.get(2).getPlace()).getAddress()  %></label>
+     <label  style=" margin-top: px;margin-left: 50px;"><%=huc.getArtist(events.get(2).getArtist()).getTalent() %></label>
+         <label  style=" margin-top: px;margin-left: 50px;"></label>
 
     <hr align=”left” size=”1″ width=”300″ color=”white” noshade>
  
@@ -176,9 +176,9 @@
     <h3 style="margin-top: -1225px; margin-left: 1000px;"></h3>
 
   
-     <div id="paypal-button-container0"  style="margin-top: 650px; margin-left: 1000px; width: 115px;height: 85px; fundingicons: 'true';"fundingicons: 'true'> </div>
-      <div id="paypal-button-container1"  style="margin-top:300px; margin-left: 1000px; width: 115px;height: 85px; fundingicons: 'true';"fundingicons: 'true'> </div>
-      <div id="paypal-button-container2"  style="margin-top:60px; margin-left: 1000px; width: 115px;height: 85px; fundingicons: 'true';"fundingicons: 'true'> </div>
+     <div id="paypal-button-container0"  style="margin-top: 650px; margin-left: 1000px; width: 115px;height: 85px; fundingicons: 'true';"> </div>
+      <div id="paypal-button-container1"  style="margin-top:300px; margin-left: 1000px; width: 115px;height: 85px; fundingicons: 'true';"> </div>
+      <div id="paypal-button-container2"  style="margin-top:60px; margin-left: 1000px; width: 115px;height: 85px; fundingicons: 'true';"> </div>
  
   <script> 
    
